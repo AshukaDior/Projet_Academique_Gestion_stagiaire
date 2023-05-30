@@ -1,0 +1,13 @@
+<?php
+            if($_server['REQUEST_METHOD']=='post'){
+                $nom=$_post['nom'];
+                $prenom[$_post['prenom'];
+                $emmail=$_post['email'];
+                $telephone=$_post['telephone'];
+                $ecole=$_post['ecole'];
+                $telephone=$_diplome['diplome'];
+                $date_debut=$_post['date_debut'];
+                $date_fin=$_post['date_fin'];
+                $lettre_motivation=$_post['lettre_motivation'];
+            }
+            ?>
